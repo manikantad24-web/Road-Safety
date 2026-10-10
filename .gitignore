@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+# Secrets / local config
+.env
+.env.*
+!.env.example
+# Local data
+backend/data/
+*.db
+*.db-wal
+*.db-shm
+backend/uploads/*
+!backend/uploads/.gitkeep
+# Model weights (large, licence-dependent) - download separately, see README
+backend/models_weights/*
+!backend/models_weights/.gitkeep
+*.pt
+*.onnx
+# Node
+node_modules/
+frontend/dist/
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
