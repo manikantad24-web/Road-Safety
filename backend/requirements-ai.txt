@@ -1,0 +1,3 @@
+# Optional but REQUIRED for real image analysis. Large download (PyTorch).
+-r requirements.txt
+ultralytics>=8.2
